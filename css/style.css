@@ -18,3 +18,19 @@
 html {
   font-size: var(--font-size);
   font-family: var(--font-family); }
+
+body {
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+button {
+  border: none;
+  background-color: transparent; }
+
+ul {
+  padding: 0; }
+
+li {
+  list-style: none; }
