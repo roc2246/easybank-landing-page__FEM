@@ -1,6 +1,4 @@
 @function rem($px) {
   @return ($px / map-get($map: $font, $key: size)) + rem;
 }
-:root{
-    height: rem(12px);
-}
+

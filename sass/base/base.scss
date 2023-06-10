@@ -1,0 +1,22 @@
+:root {
+  @each $name, $size in $layout {
+    --layout-#{$name}: #{rem($size)};
+  }
+
+  @each $color, $name in map-get($color, primary) {
+    --color-#{$color}: #{$name};
+  }
+  @each $color, $name in map-get($color, neutral) {
+    --color-#{$color}: #{$name};
+  }
+
+  @each $size in map-get($font, size) {
+    --font-size: #{$size};
+  }
+  @each $weight, $name in map-get($font, weight) {
+    --font-weight-#{$weight}: #{$name};
+  }
+  @each $name in map-get($font, family) {
+    --font-family: #{$name};
+  }
+}

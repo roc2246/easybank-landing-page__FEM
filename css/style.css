@@ -1,1 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;300;400;700&display=swap");
+:root {
+  --layout-mobile: 20.83333rem;
+  --layout-desktop: 80rem;
+  --color-dark-blue: #2d314d;
+  --color-lime-green: #31d35c;
+  --color-bright-cyan: #2bb7da;
+  --color-grayish-blue: #9698a6;
+  --color-light-grayish-blue: #f3f4f6;
+  --color-very-light-gray: #fafafa;
+  --color-white: white;
+  --font-size: 18px;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-family: 'Public Sans', sans-serif; }
