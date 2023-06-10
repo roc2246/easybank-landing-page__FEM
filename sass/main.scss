@@ -6,4 +6,14 @@
 
 @import "base/base";
 @import "base/reset";
-@import "base/typography"
+@import "base/typography";
+
+@import "components/anchors";
+@import "components/buttons";
+@import "components/images";
+
+@import "layout/flex";
+@import "layout/grid";
+
+@import "themes/default";
+
