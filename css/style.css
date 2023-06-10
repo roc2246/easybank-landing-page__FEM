@@ -14,3 +14,7 @@
   --font-weight-regular: 400;
   --font-weight-bold: 700;
   --font-family: 'Public Sans', sans-serif; }
+
+html {
+  font-size: var(--font-size);
+  font-family: var(--font-family); }
