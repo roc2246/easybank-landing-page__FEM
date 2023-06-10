@@ -17,6 +17,12 @@ $colors: (
     )
 );
 
-$fonts: (
+$font: (
   size: 18px,
+  weights:(
+    light: 300, 
+    regular: 400,
+    bold: 700
+  ),
+  family: 'Public Sans', sans-serif,
 );
