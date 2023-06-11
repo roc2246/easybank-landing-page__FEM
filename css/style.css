@@ -36,3 +36,20 @@ ul {
 
 li {
   list-style: none; }
+
+.btn--top {
+  display: none; }
+
+.logo--top {
+  object-fit: contain; }
+
+.toggle-nav__icon--close {
+  display: none; }
+
+.container--header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.nav--top > .nav__links {
+  display: none; }
