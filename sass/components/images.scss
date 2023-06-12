@@ -5,9 +5,13 @@
 }
 
 .hero {
-  &__img {
+  &__img{
+    // width: 100%;
+  }
+  &__bg {
     &--mobile {
-      // display: none;
+    width: 100%;
+
     }
     &--desktop {
       display: none;

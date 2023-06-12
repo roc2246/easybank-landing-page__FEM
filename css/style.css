@@ -26,8 +26,15 @@ a {
   cursor: pointer;
   text-decoration: none; }
 
+h1,
+h2,
+h3,
+h4 {
+  font-weight: var(--font-weight-light); }
+
 p {
-  color: var(--color-grayish-blue); }
+  color: var(--color-grayish-blue);
+  line-height: 1.75rem; }
 
 button {
   cursor: pointer;
@@ -39,6 +46,9 @@ ul {
 
 li {
   list-style: none; }
+
+.hero__heading {
+  font-size: 2.77778rem; }
 
 .btn--CTA {
   font-weight: var(--font-weight-bold);
@@ -59,7 +69,10 @@ li {
 .logo--top {
   object-fit: contain; }
 
-.hero__img--desktop {
+.hero__bg--mobile {
+  width: 100%; }
+
+.hero__bg--desktop {
   display: none; }
 
 .toggle-nav__icon--close {
@@ -90,6 +103,11 @@ li {
 .nav__link--top {
   display: flex;
   align-items: center; }
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse; }
 
 .nav--top {
   display: none; }

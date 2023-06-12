@@ -1,3 +1,10 @@
+.hero{
+  &__heading{
+      font-size: rem(50px);
+      // font-size: rem(70px);
+  }
+}
+
 .btn {
   &--CTA {
     font-weight: var(--font-weight-bold);
