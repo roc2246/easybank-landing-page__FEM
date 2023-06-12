@@ -6,3 +6,13 @@
     align-items: center;
   }
 }
+
+.nav {
+  &__links {
+    &--top {
+      display: flex;
+      flex-direction: row;
+      gap: rem(30px);
+    }
+  }
+}

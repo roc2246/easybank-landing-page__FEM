@@ -1,5 +1,8 @@
-.container{
-    margin-left: auto;
-    margin-right: auto;
-    width: maxSCSS(327px, 1110px);
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: maxSCSS(327px, 1110px);
+  &--header {
+    height: 100%;
+  }
 }

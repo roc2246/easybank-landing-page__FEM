@@ -2,4 +2,15 @@
   &--top {
     display: none;
   }
+  @media (min-width: 955px) {
+    &--top{
+      display: block;
+    }
+  }
+  &--CTA{
+    border: solid;
+    border-radius: 1.5rem;
+    height: rem(45px);
+    width: rem(162px);
+  }
 }

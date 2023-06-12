@@ -2,4 +2,9 @@
   &--top {
     display: none;
   }
+  @media (min-width: 716px) {
+    &--top {
+      display: block;
+    }
+  }
 }
