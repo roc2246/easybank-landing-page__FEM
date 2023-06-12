@@ -48,10 +48,10 @@ li {
     display: block; } }
 
 .btn--CTA {
-  border: solid;
   border-radius: 1.5rem;
   height: 2.5rem;
-  width: 9rem; }
+  width: 9rem;
+  background-image: linear-gradient(to right, var(--color-lime-green), var(--color-bright-cyan)); }
 
 .logo--top {
   object-fit: contain; }
