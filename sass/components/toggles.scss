@@ -1,12 +1,10 @@
-.toggle-nav{
-    &__icon{
-        &--close{
-            display: none;
-        }
+.toggle-nav {
+  &__icon {
+    &--close {
+      display: none;
     }
-    @media (min-width: 716px) {
-        &__icon {
-          display: none;
-        }
-      }
+  }
+  @media (min-width: 716px) {
+    display: none;
+  }
 }
