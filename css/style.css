@@ -102,7 +102,7 @@ li {
   height: max(3.5rem, 5.625vw); }
   .nav__link--top:hover {
     border-bottom: 0.22222rem solid;
-    border-bottom-color: var(--color-lime-green);
+    border-image: linear-gradient(to right, var(--color-lime-green), var(--color-bright-cyan)) 1;
     margin-bottom: -0.22222rem; }
 
 header {
