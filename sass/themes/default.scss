@@ -6,6 +6,9 @@
       var(--color-lime-green),
       var(--color-bright-cyan)
     );
+    &:hover{
+      opacity: 0.5;
+    }
   }
 }
 

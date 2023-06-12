@@ -113,6 +113,8 @@ main {
 .btn--CTA {
   color: var(--color-white);
   background-image: linear-gradient(to right, var(--color-lime-green), var(--color-bright-cyan)); }
+  .btn--CTA:hover {
+    opacity: 0.5; }
 
 header {
   background-color: var(--color-white); }
