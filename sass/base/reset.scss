@@ -1,22 +1,26 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
 a {
-    cursor: pointer;
-    text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+p {
+  color: var(--color-grayish-blue);
 }
 
 button {
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
 }
 
-ul{
-    padding: 0;
+ul {
+  padding: 0;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }

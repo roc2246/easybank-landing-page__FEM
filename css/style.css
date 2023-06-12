@@ -26,6 +26,9 @@ a {
   cursor: pointer;
   text-decoration: none; }
 
+p {
+  color: var(--color-grayish-blue); }
+
 button {
   cursor: pointer;
   border: none;
@@ -55,9 +58,6 @@ li {
 
 .logo--top {
   object-fit: contain; }
-
-.hero__img--mobile {
-  display: none; }
 
 .hero__img--desktop {
   display: none; }
@@ -106,9 +106,6 @@ li {
 
 header {
   height: max(3.5rem, 5.625vw); }
-
-main {
-  display: none; }
 
 .btn--CTA {
   color: var(--color-white);
