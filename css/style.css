@@ -87,12 +87,23 @@ li {
   flex-direction: row;
   gap: 1.66667rem; }
 
+.nav__link--top {
+  display: flex;
+  align-items: center; }
+
 .nav--top {
   display: none; }
 
 @media (min-width: 716px) {
   .nav--top {
     display: block; } }
+
+.nav__link--top {
+  height: max(3.5rem, 5.625vw); }
+  .nav__link--top:hover {
+    border-bottom: 0.22222rem solid;
+    border-bottom-color: var(--color-lime-green);
+    margin-bottom: -0.22222rem; }
 
 header {
   height: max(3.5rem, 5.625vw); }

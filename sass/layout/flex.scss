@@ -15,4 +15,10 @@
       gap: rem(30px);
     }
   }
+  &__link {
+    &--top {
+      display: flex;
+      align-items: center;
+    }
+  }
 }

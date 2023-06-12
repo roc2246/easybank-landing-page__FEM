@@ -7,4 +7,14 @@
       display: block;
     }
   }
+  &__link {
+    &--top {
+      height: maxSCSS(63px, 81px);
+      &:hover {
+        border-bottom: rem(4px) solid;
+        border-bottom-color: var(--color-lime-green);
+        margin-bottom: rem(-4px);
+      }
+    }
+  }
 }
