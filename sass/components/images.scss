@@ -3,3 +3,14 @@
     object-fit: contain;
   }
 }
+
+.hero {
+  &__img {
+    &--mobile {
+      display: none;
+    }
+    &--desktop {
+      display: none;
+    }
+  }
+}

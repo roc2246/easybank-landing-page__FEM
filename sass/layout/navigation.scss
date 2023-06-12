@@ -1,7 +1,5 @@
-.nav{
-    &--top{
-        & > .nav__links{
-            display: none;
-        }
-    }
+.nav {
+  &--top {
+    display: none;
+  }
 }

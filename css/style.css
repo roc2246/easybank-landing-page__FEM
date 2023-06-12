@@ -43,13 +43,28 @@ li {
 .logo--top {
   object-fit: contain; }
 
+.hero__img--mobile {
+  display: none; }
+
+.hero__img--desktop {
+  display: none; }
+
 .toggle-nav__icon--close {
   display: none; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: max(18.16667rem, 77.08333vw); }
 
 .container--header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
 
-.nav--top > .nav__links {
+.nav--top {
+  display: none; }
+
+main {
   display: none; }

@@ -3,15 +3,15 @@
 }
 
 @function getVW($value, $size){
-    @return ($value, map-get($map: $layout, $key: $size)) + vw;
+    @return (($value / map-get($map: $layout, $key: $size))*100) + vw;
 }
 
 @function min($value1, $value2){
     @return #{"min(#{$value1}, #{$value2})"};
 }
 
-@function max($value1, $value2){
-    @return #{"max(#{$value1}, #{$value2})"};
+@function maxSCSS($value1, $value2){
+    @return #{"max(#{rem($value1)}, #{getVW($value2, desktop)})"};
 }
 
 @function clamp($value1, $value2, $value3){
