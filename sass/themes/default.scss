@@ -1,5 +1,6 @@
 .btn {
   &--CTA {
+    color: var(--color-white);
     background-image: linear-gradient(
       to right,
       var(--color-lime-green),
@@ -25,4 +26,9 @@ header {
       }
     }
   }
+  &__anchor{
+    &--top{
+        color: var(--color-grayish-blue);
+    }
+}
 }

@@ -1,7 +1,6 @@
-.nav{
-    &__anchor{
-        &--top{
-            color: var(--color-grayish-blue);
-        }
-    }
+.btn {
+  &--CTA {
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 0.05rem;
+  }
 }
