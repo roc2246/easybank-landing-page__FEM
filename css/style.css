@@ -50,8 +50,7 @@ li {
 .btn--CTA {
   border-radius: 1.5rem;
   height: 2.5rem;
-  width: 9rem;
-  background-image: linear-gradient(to right, var(--color-lime-green), var(--color-bright-cyan)); }
+  width: 9rem; }
 
 .logo--top {
   object-fit: contain; }
@@ -102,7 +101,6 @@ li {
   height: max(3.5rem, 5.625vw); }
   .nav__link--top:hover {
     border-bottom: 0.22222rem solid;
-    border-image: linear-gradient(to right, var(--color-lime-green), var(--color-bright-cyan)) 1;
     margin-bottom: -0.22222rem; }
 
 header {
@@ -111,5 +109,11 @@ header {
 main {
   display: none; }
 
+.btn--CTA {
+  background-image: linear-gradient(to right, var(--color-lime-green), var(--color-bright-cyan)); }
+
 header {
   background-color: var(--color-white); }
+
+.nav__link--top:hover {
+  border-image: linear-gradient(to right, var(--color-lime-green), var(--color-bright-cyan)) 1; }

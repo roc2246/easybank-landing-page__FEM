@@ -12,7 +12,6 @@
       height: maxSCSS(63px, 81px);
       &:hover {
         border-bottom: rem(4px) solid;
-        border-image: linear-gradient(to right, var(--color-lime-green) , var(--color-bright-cyan)) 1;
         margin-bottom: rem(-4px);
       }
     }

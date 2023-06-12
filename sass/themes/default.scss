@@ -1,3 +1,28 @@
-header{
-    background-color: var(--color-white);
+.btn {
+  &--CTA {
+    background-image: linear-gradient(
+      to right,
+      var(--color-lime-green),
+      var(--color-bright-cyan)
+    );
+  }
+}
+
+header {
+  background-color: var(--color-white);
+}
+
+.nav {
+  &__link {
+    &--top {
+      &:hover {
+        border-image: linear-gradient(
+            to right,
+            var(--color-lime-green),
+            var(--color-bright-cyan)
+          )
+          1;
+      }
+    }
+  }
 }
