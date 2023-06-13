@@ -72,6 +72,7 @@ li {
 .hero__img {
   z-index: 0;
   margin-top: -6.8rem;
+  overflow-x: hidden;
   width: max(20.83333rem, 51.52778vw); }
 
 .hero__mockups {

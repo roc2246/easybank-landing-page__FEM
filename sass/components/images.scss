@@ -7,7 +7,8 @@
 .hero {
   &__img {
     z-index: 0;
-    margin-top: -6.8rem;
+    margin-top: rem(-122.4px);
+    overflow-x: hidden;
     width: maxSCSS(375px, 742px);
  
   }
