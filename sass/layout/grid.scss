@@ -1,0 +1,17 @@
+.hero {
+  &__img {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: rem(60px) rem(345px);
+  }
+  &__bg {
+    z-index: 0;
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+  &__mockups {
+    z-index: 1;
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+}

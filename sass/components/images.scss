@@ -5,16 +5,25 @@
 }
 
 .hero {
-  &__img{
-    // width: 100%;
+  &__img {
+    z-index: 0;
+    margin-top: -6.8rem;
+    width: maxSCSS(375px, 742px);
+ 
   }
-  &__bg {
-    &--mobile {
-    width: 100%;
-
-    }
-    &--desktop {
+  &__mockups {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: maxSCSS(345px, 465px);
+  }
+  &__bg{
+    &--desktop{
       display: none;
     }
   }
+}
+
+.latest-articles{
+  display: none;
 }
