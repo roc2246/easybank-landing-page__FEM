@@ -1,7 +1,31 @@
-.hero{
-  &__heading{
-      font-size: rem(50px);
+.hero {
+  &__info {
+    // max-width: rem(420px);
+    max-width: rem(375px);
+  }
+  &__heading {
+    text-align: center;
+    font-size: rem(40px);
+    // font-size: rem(70px);
+  }
+  &__paragraph {
+    text-align: center;
+  }
+}
+
+@media (min-width: 685px) {
+  .hero {
+    // &__info {
+    //   // max-width: rem(430px);
+    //   max-width: rem(375px);
+    // }
+    &__heading {
+      text-align: left;
       // font-size: rem(70px);
+    }
+    &__paragraph {
+      text-align: left;
+    }
   }
 }
 

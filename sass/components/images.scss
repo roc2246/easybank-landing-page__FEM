@@ -8,9 +8,10 @@
   &__img {
     z-index: 0;
     margin-top: rem(-122.4px);
+   margin-left: auto;
     overflow-x: hidden;
-    width: maxSCSS(375px, 742px);
- 
+    // width: maxSCSS(375px, 742px);
+    width: rem(375px);
   }
   &__mockups {
     display: block;
@@ -18,13 +19,28 @@
     margin-right: auto;
     width: maxSCSS(345px, 465px);
   }
-  &__bg{
-    &--desktop{
+  &__bg {
+    &--desktop {
       display: none;
     }
   }
 }
 
-.latest-articles{
+// @media (min-width: 1440px) {
+//   .hero {
+
+//     &__bg {
+//       &--mobile{
+//         display: none;
+//       }
+//       &--desktop {
+//         display: block;
+//         // width: 400px;
+//       }
+//     }
+//   }
+// }
+
+.latest-articles {
   display: none;
 }
