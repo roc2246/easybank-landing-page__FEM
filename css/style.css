@@ -122,11 +122,7 @@ li {
     display: none; }
   .hero__bg--desktop {
     display: block;
-    width: max(20.83333rem, 51.52778vw); } }
-
-@media (min-width: 1082px) {
-  .hero__img {
-    margin-right: 8rem; } }
+    max-width: 70.61111rem; } }
 
 .latest-articles {
   display: none; }
