@@ -15,3 +15,18 @@
     grid-row: 1/3;
   }
 }
+
+@media (min-width: 844px) {
+  .hero {
+    &__img {
+      grid-template-columns: repeat(3, auto);
+      grid-template-rows: rem(80px) rem(550px);
+    }
+    &__bg {
+      grid-row:1/2;
+    }
+    &__mockups {
+     grid-row: 2/3;
+    }
+  }
+}

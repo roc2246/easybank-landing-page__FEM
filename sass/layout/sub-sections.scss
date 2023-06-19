@@ -1,9 +1,9 @@
 .hero {
   margin-left: auto;
   width: maxSCSS(375px, 1280px);
-// max-width: rem(1268px);
+  overflow: hidden;
 }
 
 .propositions {
-  display: none;
+  // display: none;
 }

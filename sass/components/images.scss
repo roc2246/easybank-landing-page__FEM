@@ -7,10 +7,8 @@
 .hero {
   &__img {
     z-index: 0;
+    margin-left: auto;
     margin-top: rem(-122.4px);
-   margin-left: auto;
-    overflow-x: hidden;
-    // width: maxSCSS(375px, 742px);
     width: rem(375px);
   }
   &__mockups {
@@ -26,20 +24,27 @@
   }
 }
 
-// @media (min-width: 1440px) {
-//   .hero {
+@media (min-width: 844px) {
+  .hero {
+    &__bg {
+      &--mobile {
+        display: none;
+      }
+      &--desktop {
+        display: block;
+        width: maxSCSS(375px, 742px);
+      }
+    }
+  }
+}
 
-//     &__bg {
-//       &--mobile{
-//         display: none;
-//       }
-//       &--desktop {
-//         display: block;
-//         // width: 400px;
-//       }
-//     }
-//   }
-// }
+@media (min-width: 1082px) {
+  .hero {
+    &__img {
+      margin-right: 8rem;
+    }
+  }
+}
 
 .latest-articles {
   display: none;
