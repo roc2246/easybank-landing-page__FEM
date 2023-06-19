@@ -1,7 +1,7 @@
 .hero {
   &__info {
-    // max-width: rem(420px);
-    max-width: rem(375px);
+    max-width: rem(410px);
+    // max-width: rem(375px);
   }
   &__heading {
     text-align: center;
@@ -13,7 +13,7 @@
   }
 }
 
-@media (min-width: 685px) {
+@media (min-width: 565px) {
   .hero {
     // &__info {
     //   // max-width: rem(430px);
