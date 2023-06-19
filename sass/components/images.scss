@@ -26,6 +26,9 @@
 
 @media (min-width: 884px) {
   .hero {
+    &__img{
+      margin-left: unset;
+    }
     &__bg {
       &--mobile {
         display: none;
