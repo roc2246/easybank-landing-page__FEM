@@ -15,7 +15,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: maxSCSS(345px, 465px);
+    width: maxSCSS(345px, 925px);
   }
   &__bg {
     &--desktop {
@@ -27,7 +27,7 @@
 @media (min-width: 1080px) {
   .hero {
     &__img {
-      margin-top: rem(-250px);
+      margin-top: rem(-260px);
       margin-left: unset;
     }
     &__bg {
@@ -38,15 +38,6 @@
         display: block;
         max-width: rem(1271px);
       }
-    }
-  }
-}
-
-@media (min-width: 1082px) {
-  .hero {
-    &__img {
-      // margin-right: 8rem;
-      // margin-right: 26rem;
     }
   }
 }

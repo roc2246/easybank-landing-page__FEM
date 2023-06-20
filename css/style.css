@@ -48,9 +48,6 @@ ul {
 li {
   list-style: none; }
 
-.nav__anchor {
-  font-size: 0.80556rem; }
-
 .hero__info {
   max-width: 20.83333rem;
   margin-left: auto;
@@ -113,14 +110,14 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: max(19.16667rem, 32.29167vw); }
+  width: max(19.16667rem, 64.23611vw); }
 
 .hero__bg--desktop {
   display: none; }
 
 @media (min-width: 1080px) {
   .hero__img {
-    margin-top: -13.88889rem;
+    margin-top: -14.44444rem;
     margin-left: unset; }
   .hero__bg--mobile {
     display: none; }
@@ -164,6 +161,10 @@ li {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse; }
+
+@media (min-width: 1080px) {
+  .hero {
+    gap: 4.16667vw; } }
 
 .hero__img {
   display: grid;

@@ -30,8 +30,8 @@
   // justify-content: space-between;
 }
 
-// @media (min-width: 1080px) {
-//   .hero {
-//     gap: getVW(60px, desktop);
-//   }
-// }
+@media (min-width: 1080px) {
+  .hero {
+    gap: getVW(60px, desktop);
+  }
+}
