@@ -1,3 +1,9 @@
+.nav{
+  &__anchor{
+    font-size: rem(14.5px);
+  }
+}
+
 .hero {
   &__info {
     max-width: rem(375px);

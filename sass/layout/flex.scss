@@ -27,5 +27,11 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
-  justify-content: space-between;
+  // justify-content: space-between;
 }
+
+// @media (min-width: 1080px) {
+//   .hero {
+//     gap: getVW(60px, desktop);
+//   }
+// }
