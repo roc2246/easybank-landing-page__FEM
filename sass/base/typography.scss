@@ -6,8 +6,7 @@
   }
   &__heading {
     text-align: center;
-    // font-size: rem(40px);
-    font-size: rem(70px);
+    font-size: maxSCSS(40px, 60px);
   }
   &__paragraph {
     text-align: center;

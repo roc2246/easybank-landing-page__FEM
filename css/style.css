@@ -35,7 +35,7 @@ h4 {
 p {
   color: var(--color-grayish-blue);
   line-height: 1.75rem;
-  font-size: 1.33333rem; }
+  font-size: max(0.88889rem, 1.38889vw); }
 
 button {
   cursor: pointer;
@@ -55,7 +55,7 @@ li {
 
 .hero__heading {
   text-align: center;
-  font-size: 3.88889rem; }
+  font-size: max(2.22222rem, 4.16667vw); }
 
 .hero__paragraph {
   text-align: center; }

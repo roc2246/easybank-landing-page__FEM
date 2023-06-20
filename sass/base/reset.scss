@@ -17,8 +17,7 @@ h4 {
 p {
   color: var(--color-grayish-blue);
   line-height: 1.75rem;
-  // font-size: rem(16px);
-  font-size: rem(24px);
+  font-size: maxSCSS(16px, 20px);
 }
 
 button {
