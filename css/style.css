@@ -35,7 +35,7 @@ h4 {
 p {
   color: var(--color-grayish-blue);
   line-height: 1.75rem;
-  font-size: max(0.88889rem, 1.38889vw); }
+  font-size: max(0.88889rem, 1.25vw); }
 
 button {
   cursor: pointer;
@@ -71,7 +71,7 @@ li {
 
 @media (min-width: 884px) {
   .hero__info {
-    max-width: 33.05556rem; } }
+    max-width: 32.22222rem; } }
 
 .btn--CTA {
   font-weight: var(--font-weight-bold);
