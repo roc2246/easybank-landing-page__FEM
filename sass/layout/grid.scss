@@ -2,7 +2,7 @@
   &__img {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: rem(60px) rem(345px);
+    grid-template-rows: maxSCSS(60px, 80px) maxSCSS(345px, 910px);
   }
   &__bg {
     z-index: 0;
@@ -20,7 +20,6 @@
   .hero {
     &__img {
       grid-template-columns: repeat(3, auto);
-      grid-template-rows: rem(80px) rem(550px);
     }
     &__bg {
       grid-row:1/2;

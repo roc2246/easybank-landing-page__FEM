@@ -6,32 +6,30 @@
   }
   &__heading {
     text-align: center;
-    font-size: rem(40px);
-    // font-size: rem(70px);
+    // font-size: rem(40px);
+    font-size: rem(70px);
   }
   &__paragraph {
     text-align: center;
   }
   @media (min-width: 565px) {
-      &__info {
-        margin-left: unset;
-        margin-right: unset;
-      }
-      &__heading {
-        text-align: left;
-      }
-      &__paragraph {
-        text-align: left;
-      }
+    &__info {
+      margin-left: unset;
+      margin-right: unset;
+    }
+    &__heading {
+      text-align: left;
+    }
+    &__paragraph {
+      text-align: left;
+    }
   }
   @media (min-width: 884px) {
-    &__info{
-    max-width: rem(410px);
+    &__info {
+      max-width: rem(595px);
     }
   }
 }
-
-
 
 .btn {
   &--CTA {

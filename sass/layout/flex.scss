@@ -32,6 +32,6 @@
 
 @media (min-width: 1080px) {
   .hero {
-    gap: getVW(60px, desktop);
+    gap: rem(50px);
   }
 }

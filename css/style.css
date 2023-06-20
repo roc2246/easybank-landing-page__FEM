@@ -35,7 +35,7 @@ h4 {
 p {
   color: var(--color-grayish-blue);
   line-height: 1.75rem;
-  font-size: 0.88889rem; }
+  font-size: 1.33333rem; }
 
 button {
   cursor: pointer;
@@ -55,7 +55,7 @@ li {
 
 .hero__heading {
   text-align: center;
-  font-size: 2.22222rem; }
+  font-size: 3.88889rem; }
 
 .hero__paragraph {
   text-align: center; }
@@ -71,7 +71,7 @@ li {
 
 @media (min-width: 884px) {
   .hero__info {
-    max-width: 22.77778rem; } }
+    max-width: 33.05556rem; } }
 
 .btn--CTA {
   font-weight: var(--font-weight-bold);
@@ -110,7 +110,7 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: max(19.16667rem, 64.23611vw); }
+  width: max(19.16667rem, 53.81944vw); }
 
 .hero__bg--desktop {
   display: none; }
@@ -164,12 +164,12 @@ li {
 
 @media (min-width: 1080px) {
   .hero {
-    gap: 4.16667vw; } }
+    gap: 2.77778rem; } }
 
 .hero__img {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  grid-template-rows: 3.33333rem 19.16667rem; }
+  grid-template-rows: max(3.33333rem, 5.55556vw) max(19.16667rem, 63.19444vw); }
 
 .hero__bg {
   z-index: 0;
@@ -183,8 +183,7 @@ li {
 
 @media (min-width: 1080px) {
   .hero__img {
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: 4.44444rem 30.55556rem; }
+    grid-template-columns: repeat(3, auto); }
   .hero__bg {
     grid-row: 1/2; }
   .hero__mockups {
