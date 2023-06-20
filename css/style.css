@@ -117,6 +117,7 @@ li {
 
 @media (min-width: 884px) {
   .hero__img {
+    margin-top: -13.88889rem;
     margin-left: unset; }
   .hero__bg--mobile {
     display: none; }

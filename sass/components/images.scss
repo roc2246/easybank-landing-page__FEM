@@ -27,6 +27,7 @@
 @media (min-width: 884px) {
   .hero {
     &__img {
+      margin-top: rem(-250px);
       margin-left: unset;
     }
     &__bg {
