@@ -11,8 +11,8 @@
   }
   &--CTA {
     border-radius: 1.5rem;
-    height: rem(45px);
-    width: rem(162px);
+    height: maxSCSS(45px, 46px);
+    width: maxSCSS(162px, 170px);
   }
 }
 
