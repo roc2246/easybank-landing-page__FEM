@@ -7,6 +7,7 @@
 .hero {
   &__img {
     z-index: 0;
+    width: 100%;
     margin-left: auto;
     margin-top: rem(-120px);
   }
@@ -14,7 +15,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: maxSCSS(325px, 775px);
+    width: clamp(rem(325px), 80vw, rem(775px));
   }
   &__bg {
     width: 100%;
@@ -26,7 +27,6 @@
     &__bg {
       &--mobile {
         display: none;
-
       }
       &--desktop {
         display: block;

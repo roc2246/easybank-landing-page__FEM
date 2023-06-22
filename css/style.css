@@ -88,6 +88,7 @@ li {
 
 .hero__img {
   z-index: 0;
+  width: 100%;
   margin-left: auto;
   margin-top: -6.66667rem; }
 
@@ -95,7 +96,7 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: max(18.05556rem, 53.81944vw); }
+  width: clamp(18.05556rem, 80vw, 43.05556rem); }
 
 .hero__bg {
   width: 100%; }
