@@ -74,7 +74,7 @@ li {
     max-width: 32.22222rem; } }
 
 .btn--CTA {
-  font-size: max(0.72222rem, 0.97222vw);
+  font-size: clamp(0.72222rem, 0.97222vw, 0.88889rem);
   font-weight: var(--font-weight-bold);
   letter-spacing: 0.05rem; }
 
@@ -88,7 +88,9 @@ li {
   .btn--CTA {
     border-radius: 1.5rem;
     height: max(2.5rem, 3.19444vw);
-    width: max(9rem, 11.80556vw); }
+    max-height: 3.19333rem;
+    width: max(9rem, 11.80556vw);
+    max-width: 11.80556rem; }
 
 .hero .btn--CTA {
   margin-left: auto;
