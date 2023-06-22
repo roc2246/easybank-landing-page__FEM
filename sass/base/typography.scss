@@ -1,6 +1,6 @@
 .hero {
   &__info {
-    max-width: rem(375px);
+    width: clamp(rem(375px), 75vw, rem(580px));
     margin-left: auto;
     margin-right: auto;
   }
@@ -11,28 +11,22 @@
   &__paragraph {
     text-align: center;
   }
-  @media (min-width: 565px) {
-    &__info {
-      margin-left: unset;
-      margin-right: unset;
-    }
-    &__heading {
-      text-align: left;
-    }
-    &__paragraph {
-      text-align: left;
-    }
-  }
-  @media (min-width: 884px) {
-    &__info {
-      max-width: rem(580px);
-    }
-  }
+  // @media (min-width: 540px) {
+  //   &__info {
+  //     margin-left: unset;
+  //     margin-right: unset;
+  //   }
+  //   &__heading {
+  //     text-align: left;
+  //   }
+  //   &__paragraph {
+  //     text-align: left;
+  //   }
+  // }
 }
 
 .btn {
   &--CTA {
-    // font-size: maxSCSS(13px, 14px);
     font-size: clamp(rem(13px), getVW(14px, desktop), rem(16px));
     font-weight: var(--font-weight-bold);
     letter-spacing: 0.05rem;

@@ -49,7 +49,7 @@ li {
   list-style: none; }
 
 .hero__info {
-  max-width: 20.83333rem;
+  width: clamp(20.83333rem, 75vw, 32.22222rem);
   margin-left: auto;
   margin-right: auto; }
 
@@ -59,19 +59,6 @@ li {
 
 .hero__paragraph {
   text-align: center; }
-
-@media (min-width: 565px) {
-  .hero__info {
-    margin-left: unset;
-    margin-right: unset; }
-  .hero__heading {
-    text-align: left; }
-  .hero__paragraph {
-    text-align: left; } }
-
-@media (min-width: 884px) {
-  .hero__info {
-    max-width: 32.22222rem; } }
 
 .btn--CTA {
   font-size: clamp(0.72222rem, 0.97222vw, 0.88889rem);
@@ -96,37 +83,34 @@ li {
   margin-left: auto;
   margin-right: auto; }
 
-@media (min-width: 565px) {
-  .hero .btn--CTA {
-    margin-left: unset; } }
-
 .logo--top {
   object-fit: contain; }
 
 .hero__img {
   z-index: 0;
   margin-left: auto;
-  margin-top: -6.8rem;
-  width: 20.83333rem; }
+  margin-top: -6.66667rem; }
 
 .hero__mockups {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: max(19.16667rem, 53.81944vw); }
+  width: max(18.05556rem, 53.81944vw); }
 
-.hero__bg--desktop {
-  display: none; }
+.hero__bg {
+  width: 100%; }
+  .hero__bg--desktop {
+    display: none; }
 
-@media (min-width: 1080px) {
-  .hero__img {
-    margin-top: -14.44444rem;
-    margin-left: unset; }
+@media (min-width: 540px) {
   .hero__bg--mobile {
     display: none; }
   .hero__bg--desktop {
-    display: block;
-    max-width: 70.61111rem; } }
+    display: block; } }
+
+@media (min-width: 844px) {
+  .hero__bg {
+    width: unset; } }
 
 .latest-articles {
   display: none; }
@@ -170,9 +154,7 @@ li {
     gap: 2.77778rem; } }
 
 .hero__img {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: max(3.33333rem, 5.55556vw) max(19.16667rem, 63.19444vw); }
+  display: grid; }
 
 .hero__bg {
   z-index: 0;
@@ -183,14 +165,6 @@ li {
   z-index: 1;
   grid-column: 2/3;
   grid-row: 1/3; }
-
-@media (min-width: 1080px) {
-  .hero__img {
-    grid-template-columns: repeat(3, auto); }
-  .hero__bg {
-    grid-row: 1/2; }
-  .hero__mockups {
-    grid-row: 2/3; } }
 
 .nav--top {
   display: none; }
@@ -213,9 +187,10 @@ header {
 .hero {
   overflow: hidden; }
 
-@media (min-width: 565px) {
+@media (min-width: 540px) {
   .hero {
     margin-left: auto;
+    margin-right: auto;
     width: max(20.83333rem, 88.88889vw); } }
 
 .btn--CTA {
