@@ -96,20 +96,18 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: clamp(18.05556rem, 80vw, 43.05556rem); }
+  width: clamp(18.05556rem, 80vw, 50.27778rem); }
 
 .hero__bg {
-  width: 100%; }
+  width: clamp(20.83333rem, 100vw, 83.33333rem); }
   .hero__bg--desktop {
     display: none; }
 
 @media (min-width: 540px) {
-  .hero__bg {
-    width: 27.22222rem; }
-    .hero__bg--mobile {
-      display: none; }
-    .hero__bg--desktop {
-      display: block; } }
+  .hero__bg--mobile {
+    display: none; }
+  .hero__bg--desktop {
+    display: block; } }
 
 .latest-articles {
   display: none; }
