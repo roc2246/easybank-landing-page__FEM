@@ -9,7 +9,7 @@
     z-index: 0;
     width: 100%;
     margin-left: auto;
-    margin-top: rem(-120px);
+    // margin-top: rem(-120px);
   }
   &__mockups {
     display: block;
@@ -25,6 +25,7 @@
   }
   @media (min-width: 540px) {
     &__bg {
+    width: rem(600px);
       &--mobile {
         display: none;
       }
@@ -35,7 +36,7 @@
   }
   @media (min-width: 844px) {
     &__bg {
-      width: unset;
+      // width: unset;
     }
   }
 }
