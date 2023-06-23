@@ -89,7 +89,8 @@ li {
 .hero__img {
   z-index: 0;
   width: 100%;
-  margin-left: auto; }
+  margin-left: auto;
+  margin-top: -6.66667rem; }
 
 .hero__mockups {
   display: block;
@@ -104,7 +105,7 @@ li {
 
 @media (min-width: 540px) {
   .hero__bg {
-    width: 33.33333rem; }
+    width: 27.22222rem; }
     .hero__bg--mobile {
       display: none; }
     .hero__bg--desktop {

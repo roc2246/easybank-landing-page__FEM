@@ -9,7 +9,7 @@
     z-index: 0;
     width: 100%;
     margin-left: auto;
-    // margin-top: rem(-120px);
+    margin-top: rem(-120px);
   }
   &__mockups {
     display: block;
@@ -25,7 +25,7 @@
   }
   @media (min-width: 540px) {
     &__bg {
-    width: rem(600px);
+    width: rem(490px);
       &--mobile {
         display: none;
       }
@@ -40,24 +40,6 @@
     }
   }
 }
-
-// @media (min-width: 1080px) {
-//   .hero {
-//     &__img {
-//       margin-top: rem(-260px);
-//       margin-left: unset;
-//     }
-//     &__bg {
-//       &--mobile {
-//         display: none;
-//       }
-//       &--desktop {
-//         display: block;
-//         max-width: rem(1271px);
-//       }
-//     }
-//   }
-// }
 
 .latest-articles {
   display: none;
