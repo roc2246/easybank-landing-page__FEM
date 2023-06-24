@@ -110,16 +110,13 @@ li {
 @media (min-width: 550px) {
   .hero__img {
     margin-left: auto;
+    margin-right: -30rem;
     width: unset; } }
 
 .hero__mockups {
   margin-left: auto;
   margin-right: auto;
   width: clamp(18.05556rem, 80vw, 50.27778rem); }
-
-@media (min-width: 550px) {
-  .hero__mockups {
-    width: 18.05556rem; } }
 
 .hero__bg {
   width: 100%; }
@@ -128,7 +125,7 @@ li {
 
 @media (min-width: 550px) {
   .hero__bg {
-    width: 20.83333rem; }
+    width: clamp(20.83333rem, 80vw, 83.33333rem); }
     .hero__bg--mobile {
       display: none; }
     .hero__bg--desktop {
