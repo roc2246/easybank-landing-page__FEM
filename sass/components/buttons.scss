@@ -19,16 +19,15 @@
 }
 
 .hero {
-  .btn--CTA {
-    margin-left: auto;
-    margin-right: auto;
+  .btn {
+    &--CTA {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @media (min-width: $breakpoint1) {
+      &--CTA {
+        margin-left: unset;
+      }
+    }
   }
 }
-
-// @media (min-width: 540px) {
-//   .hero {
-//     .btn--CTA {
-//       margin-left: unset;
-//     }
-//   }
-// }

@@ -7,11 +7,11 @@
     grid-column: 1/4;
     grid-row: 2/3;
   }
-  @media (min-width: 540px) {
-    &__bg{
-      grid-row: 1/2;
-    }
-  }
+  // @media (min-width: 760px) {
+  //   &__bg{
+  //     grid-row: 1/2;
+  //   }
+  // }
   &__mockups {
     z-index: 1;
     grid-column: 2/3;
