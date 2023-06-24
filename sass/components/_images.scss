@@ -36,7 +36,7 @@
   }
   @media (min-width: $breakpoint1) {
     &__bg {
-      width: clamp(rem(375px), 80vw, rem(1500px));
+      width: clamp(rem(375px), 100vw, rem(1500px));
       // width: rem(375px);
       &--mobile {
         display: none;

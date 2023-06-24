@@ -125,7 +125,7 @@ li {
 
 @media (min-width: 550px) {
   .hero__bg {
-    width: clamp(20.83333rem, 80vw, 83.33333rem); }
+    width: clamp(20.83333rem, 100vw, 83.33333rem); }
     .hero__bg--mobile {
       display: none; }
     .hero__bg--desktop {
