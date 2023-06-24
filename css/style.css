@@ -109,12 +109,17 @@ li {
 
 @media (min-width: 550px) {
   .hero__img {
-    margin-left: auto; } }
+    margin-left: auto;
+    width: unset; } }
 
 .hero__mockups {
   margin-left: auto;
   margin-right: auto;
   width: clamp(18.05556rem, 80vw, 50.27778rem); }
+
+@media (min-width: 550px) {
+  .hero__mockups {
+    width: 18.05556rem; } }
 
 .hero__bg {
   width: 100%; }
@@ -122,8 +127,6 @@ li {
     display: none; }
 
 @media (min-width: 550px) {
-  .hero__mockups {
-    width: 18.05556rem; }
   .hero__bg {
     width: 20.83333rem; }
     .hero__bg--mobile {
@@ -179,6 +182,10 @@ li {
   z-index: 0;
   grid-column: 1/4;
   grid-row: 2/3; }
+
+@media (min-width: 550px) {
+  .hero__bg {
+    grid-row: 1/2; } }
 
 .hero__mockups {
   z-index: 1;
