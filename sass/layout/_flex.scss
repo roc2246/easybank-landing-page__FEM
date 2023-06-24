@@ -28,9 +28,3 @@
   flex-direction: row;
   flex-wrap: wrap-reverse;
 }
-
-@media (min-width: 1080px) {
-  .hero {
-    gap: rem(50px);
-  }
-}

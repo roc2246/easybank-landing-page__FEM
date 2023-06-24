@@ -7,11 +7,18 @@
   @media (min-width: $breakpoint1) {
     &__info{
       margin-left: unset;
+      width: rem(456px);
+    }
+  }
+  @media (min-width: $breakpoint2) {
+    &__info{
+      margin-right: unset;
+      width: clamp(rem(456px), 40vw, rem(600px));
     }
   }
   &__heading {
     text-align: center;
-    font-size: maxSCSS(40px, 60px);
+    font-size: clamp(rem(40px), 10vw,rem(65px));
   }
   @media (min-width: $breakpoint1) {
     &__heading{
@@ -30,7 +37,7 @@
 
 .btn {
   &--CTA {
-    font-size: clamp(rem(13px), getVW(14px, desktop), rem(16px));
+    font-size: clamp(rem(13px), 1.5vw, rem(16px));
     font-weight: var(--font-weight-bold);
     letter-spacing: 0.05rem;
   }
