@@ -12,20 +12,16 @@
   }
   @media(min-width: $breakpoint1){
     &__img{
-      // Focus for next time
-      // margin-left: clamp(rem(10px), 20vw, rem(432px));
-      // margin-left: rem(20px);
       margin-left: auto;
-      // margin-left: 30rem;
-      // margin-right: -30rem;
       width: unset;
     }
   }
-  // @media(min-width: $breakpoint2){
-  //   &__img{
-  //     margin-left: 60rem;
-  //   }
-  // }
+  @media (min-device-width: $breakpoint2){
+    &__img{
+      // margin-left: unset;
+      margin-right:-10rem;
+    }
+  }
   &__mockups {
     margin-left: auto;
     margin-right: auto;
@@ -36,11 +32,11 @@
       width: rem(440px);
     }
   }
-  // @media (min-width: $breakpoint2) {
-  //   &__mockups{
-  //     width: clamp(rem(325px), 80vw, rem(905px));
-  //   }
-  // }
+  @media (min-width: $breakpoint2) {
+    &__mockups{
+      width: clamp(rem(440px), 10vw, rem(905px));
+    }
+  }
   &__bg {
     width:100%;
     &--desktop {
@@ -58,12 +54,11 @@
       }
     }
   }
-  // @media (min-width: $breakpoint2) {
-  //   &__bg {
-  //     width: clamp(rem(375px), 100vw, rem(1500px));
-  //   }
-  // }
-
+  @media (min-width: $breakpoint2) {
+    &__bg {
+      width: clamp(rem(550px), 10vw, rem(1500px));
+    }
+  }
 }
 
 .latest-articles {

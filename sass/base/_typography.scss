@@ -4,13 +4,13 @@
     margin-left: auto;
     margin-right: auto;
   }
-  @media (min-width: $breakpoint1) {
+  @media (min-device-width: $breakpoint1) {
     &__info{
       margin-left: unset;
       width: rem(456px);
     }
   }
-  @media (min-width: $breakpoint2) {
+  @media (min-device-width: $breakpoint2) {
     &__info{
       margin-right: unset;
       width: clamp(rem(456px), 40vw, rem(600px));
@@ -20,7 +20,7 @@
     text-align: center;
     font-size: clamp(rem(40px), 10vw,rem(65px));
   }
-  @media (min-width: $breakpoint1) {
+  @media (min-device-width: $breakpoint1) {
     &__heading{
       text-align: left;
     }
@@ -28,7 +28,7 @@
   &__paragraph {
     text-align: center;
   }
-  @media (min-width: $breakpoint1) {
+  @media (min-device-width: $breakpoint1) {
     &__paragraph{
       text-align: left;
     }

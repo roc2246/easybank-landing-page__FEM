@@ -2,7 +2,7 @@
   overflow: hidden;
 }
 
-@media (min-width: $breakpoint1) {
+@media (min-device-width: $breakpoint1) {
   .hero {
     margin-left: auto;
     width: maxSCSS(375px, 1280px);
