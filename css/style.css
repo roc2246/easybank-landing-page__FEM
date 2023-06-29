@@ -189,6 +189,11 @@ li {
   flex-direction: row;
   flex-wrap: wrap-reverse; }
 
+.propositions__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
 .hero__img {
   display: grid; }
 

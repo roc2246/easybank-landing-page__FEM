@@ -28,3 +28,11 @@
   flex-direction: row;
   flex-wrap: wrap-reverse;
 }
+
+.propositions{
+  &__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
