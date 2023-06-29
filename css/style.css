@@ -79,6 +79,25 @@ li {
   .hero__paragraph {
     text-align: left; } }
 
+.propositions__info {
+  margin-left: auto;
+  margin-right: auto; }
+
+.propositions__heading {
+  text-align: center;
+  font-size: 1.94444rem; }
+
+.propositions__paragraph {
+  text-align: center;
+  font-size: 0.83333rem; }
+
+.proposition__heading {
+  text-align: center; }
+
+.proposition__paragraph {
+  text-align: center;
+  font-size: 0.77778rem; }
+
 .btn--CTA {
   font-size: clamp(0.72222rem, 1.5vw, 0.77778rem);
   font-weight: var(--font-weight-bold);
@@ -248,6 +267,11 @@ header {
   .hero {
     margin-left: auto;
     width: max(20.83333rem, 88.88889vw); } }
+
+.proposition__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 .btn--CTA {
   color: var(--color-white);
