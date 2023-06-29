@@ -258,3 +258,6 @@ header {
 
 .nav__anchor--top {
   color: var(--color-grayish-blue); }
+
+.propositions {
+  background-color: var(--color-light-grayish-blue); }
