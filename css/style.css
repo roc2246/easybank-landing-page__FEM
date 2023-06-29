@@ -62,7 +62,7 @@ li {
 @media (min-width: 906px) {
   .hero__info {
     margin-right: unset;
-    width: clamp(25.33333rem, 40vw, 33.33333rem); } }
+    width: 25.55556rem; } }
 
 .hero__heading {
   text-align: center;

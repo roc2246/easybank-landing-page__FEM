@@ -13,7 +13,7 @@
   @media (min-width: $breakpoint2) {
     &__info{
       margin-right: unset;
-      width: clamp(rem(456px), 40vw, rem(600px));
+      width: rem(460px);
     }
   }
   &__heading {
