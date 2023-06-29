@@ -135,7 +135,7 @@ li {
 
 @media (min-width: 906px) {
   .hero__mockups {
-    width: 41.94444rem; } }
+    width: clamp(11.11111rem, 60vw, 41.94444rem); } }
 
 .hero__bg {
   width: 100%; }
@@ -152,7 +152,7 @@ li {
 
 @media (min-width: 906px) {
   .hero__bg {
-    width: 1200px; } }
+    width: clamp(44.44444rem, 85vw, 66.66667rem); } }
 
 .latest-articles {
   display: none; }
