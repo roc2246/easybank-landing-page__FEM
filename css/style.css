@@ -211,7 +211,8 @@ li {
 .propositions__container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  gap: 1.25rem; }
 
 .hero__img {
   display: grid; }
@@ -268,10 +269,17 @@ header {
     margin-left: auto;
     width: max(20.83333rem, 88.88889vw); } }
 
-.proposition__img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
+.propositions {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 4rem; }
+
+.proposition {
+  margin-top: 1.25rem; }
+  .proposition__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
 
 .btn--CTA {
   color: var(--color-white);

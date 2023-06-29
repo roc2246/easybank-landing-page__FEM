@@ -9,8 +9,14 @@
   }
 }
 
+.propositions{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 4rem;
+}
 
 .proposition{
+  margin-top: 1.25rem;
   &__img{
     display: block;
     margin-left: auto;
