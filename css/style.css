@@ -80,16 +80,26 @@ li {
     text-align: left; } }
 
 .propositions__info {
+  width: 100%;
+  max-width: 36.66667rem;
   margin-left: auto;
   margin-right: auto; }
 
 .propositions__heading {
   text-align: center;
-  font-size: 1.94444rem; }
+  font-size: clamp(1.77778rem, 4vw, 2.22222rem); }
+
+@media (min-width: 800px) {
+  .propositions__heading {
+    text-align: left; } }
 
 .propositions__paragraph {
   text-align: center;
-  font-size: 0.83333rem; }
+  font-size: clamp(0.83333rem, 4vw, 1rem); }
+
+@media (min-width: 800px) {
+  .propositions__paragraph {
+    text-align: left; } }
 
 .proposition__heading {
   text-align: center; }
