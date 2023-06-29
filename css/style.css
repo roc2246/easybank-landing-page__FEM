@@ -121,8 +121,8 @@ li {
 
 @media (min-device-width: 906px) {
   .hero__img {
-    margin-top: -18.33333rem;
-    margin-right: -40rem; } }
+    margin-top: -14.44444rem;
+    margin-right: -25rem; } }
 
 .hero__mockups {
   margin-left: auto;
@@ -196,7 +196,7 @@ li {
 
 @media (min-width: 906px) {
   .hero__img {
-    grid-template-rows: 11.66667rem repeat(2, auto); } }
+    grid-template-rows: 8.88889rem repeat(2, auto); } }
 
 .hero__bg {
   z-index: 0;
