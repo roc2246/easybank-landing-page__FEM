@@ -11,10 +11,8 @@
   }
   &--CTA {
     border-radius: 1.5rem;
-    height: maxSCSS(45px, 46px);
-    max-height: rem(57.48px);
-    width: maxSCSS(162px, 170px);
-    max-width: rem(212.5px);
+    height: clamp(rem(45px), 2vw,rem(46px));
+    width: clamp(rem(162px), 2vw,rem(170px));
   }
 }
 

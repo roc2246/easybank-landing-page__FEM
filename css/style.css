@@ -93,10 +93,8 @@ li {
       display: block; } }
   .btn--CTA {
     border-radius: 1.5rem;
-    height: max(2.5rem, 3.19444vw);
-    max-height: 3.19333rem;
-    width: max(9rem, 11.80556vw);
-    max-width: 11.80556rem; }
+    height: clamp(2.5rem, 2vw, 2.55556rem);
+    width: clamp(9rem, 2vw, 9.44444rem); }
 
 .hero .btn--CTA {
   margin-left: auto;
