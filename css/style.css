@@ -24,7 +24,8 @@ body {
 
 a {
   cursor: pointer;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: clamp(0.88889rem, 2vw, 0.77778rem); }
 
 h1,
 h2,
@@ -35,7 +36,7 @@ h4 {
 p {
   color: var(--color-grayish-blue);
   line-height: clamp(1.5rem, 2vw, 2rem);
-  font-size: clamp(0.88889rem, 2vw, 1.33333rem); }
+  font-size: clamp(0.88889rem, 2vw, 1rem); }
 
 button {
   cursor: pointer;
@@ -65,7 +66,7 @@ li {
 
 .hero__heading {
   text-align: center;
-  font-size: clamp(2.22222rem, 10vw, 3.61111rem); }
+  font-size: clamp(2.22222rem, 10vw, 3.05556rem); }
 
 @media (min-width: 550px) {
   .hero__heading {
@@ -79,7 +80,7 @@ li {
     text-align: left; } }
 
 .btn--CTA {
-  font-size: clamp(0.72222rem, 1.5vw, 0.88889rem);
+  font-size: clamp(0.72222rem, 1.5vw, 0.77778rem);
   font-weight: var(--font-weight-bold);
   letter-spacing: 0.05rem; }
 

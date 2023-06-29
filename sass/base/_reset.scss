@@ -5,6 +5,7 @@ body {
 a {
   cursor: pointer;
   text-decoration: none;
+  font-size: clamp(rem(16px), 2vw, rem(14px));
 }
 
 h1,
@@ -17,7 +18,7 @@ h4 {
 p {
   color: var(--color-grayish-blue);
   line-height: clamp(1.5rem, 2vw, 2rem);
-  font-size: clamp(rem(16px), 2vw, rem(24px));
+  font-size: clamp(rem(16px), 2vw, rem(18px));
 }
 
 button {
