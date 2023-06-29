@@ -113,13 +113,13 @@ li {
   .proposition__heading {
     text-align: center;
     font-size: clamp(1.11111rem, 2vw, 1.33333rem); }
-  @media (min-width: 800px) {
+  @media (min-width: 844px) {
     .proposition__heading {
       text-align: left; } }
   .proposition__paragraph {
     text-align: center;
     font-size: clamp(0.77778rem, 2vw, 0.88889rem); }
-  @media (min-width: 800px) {
+  @media (min-width: 844px) {
     .proposition__paragraph {
       text-align: left; } }
 
@@ -237,7 +237,7 @@ li {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1.25rem; }
+  justify-content: space-evenly; }
 
 .hero__img {
   display: grid; }
@@ -305,7 +305,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto; }
-  @media (min-width: 800px) {
+  @media (min-width: 844px) {
     .proposition__img {
       margin-left: unset; } }
 
