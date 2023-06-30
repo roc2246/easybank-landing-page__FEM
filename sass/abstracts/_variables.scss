@@ -4,28 +4,30 @@ $layout: (
 );
 
 $color: (
-    primary:(
-        dark-blue: hsl(233, 26%, 24%),
-        lime-green:hsl(136, 65%, 51%),
-        bright-cyan: hsl(192, 70%, 51%),
-    ),
-    neutral:(
-        grayish-blue: hsl(233, 8%, 62%),
-        light-grayish-blue: hsl(220, 16%, 96%),
-        very-light-gray:  hsl(0, 0%, 98%),
-        white: hsl(0, 0%, 100%),
-    )
+  primary: (
+    dark-blue: hsl(233, 26%, 24%),
+    lime-green: hsl(136, 65%, 51%),
+    bright-cyan: hsl(192, 70%, 51%),
+  ),
+  neutral: (
+    grayish-blue: hsl(233, 8%, 62%),
+    light-grayish-blue: hsl(220, 16%, 96%),
+    very-light-gray: hsl(0, 0%, 98%),
+    white: hsl(0, 0%, 100%),
+  ),
 );
 
 $font: (
   size: 18px,
-  weight:(
-    light: 300, 
+  weight: (
+    light: 300,
     regular: 400,
-    bold: 700
+    bold: 700,
   ),
   family: "'Public Sans', sans-serif",
 );
 
 $breakpoint1: 550px;
 $breakpoint2: 906px;
+
+$propBreakBoint: 867px;

@@ -22,7 +22,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  @media (min-width: 844px) {
+  @media (min-width: $propBreakBoint) {
     &__img{
       margin-left: unset;
     }
