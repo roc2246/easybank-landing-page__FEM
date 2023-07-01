@@ -196,9 +196,6 @@ li {
   .hero__bg {
     width: clamp(44.44444rem, 85vw, 66.66667rem); } }
 
-.latest-articles {
-  display: none; }
-
 .toggle-nav__icon--close {
   display: none; }
 
