@@ -237,8 +237,11 @@ li {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  column-gap: 1rem; }
+  justify-content: space-evenly; }
+
+@media (min-width: 867px) {
+  .propositions__container {
+    justify-content: space-between; } }
 
 .hero__img {
   display: grid; }
