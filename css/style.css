@@ -49,6 +49,11 @@ ul {
 li {
   list-style: none; }
 
+.btn--CTA {
+  font-size: clamp(0.72222rem, 1.5vw, 0.77778rem);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.05rem; }
+
 .hero__info {
   width: clamp(20.83333rem, 75vw, 32.22222rem);
   margin-left: auto;
@@ -122,11 +127,6 @@ li {
   @media (min-width: 867px) {
     .proposition__paragraph {
       text-align: left; } }
-
-.btn--CTA {
-  font-size: clamp(0.72222rem, 1.5vw, 0.77778rem);
-  font-weight: var(--font-weight-bold);
-  letter-spacing: 0.05rem; }
 
 .btn {
   display: block; }

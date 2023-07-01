@@ -1,3 +1,11 @@
+.btn {
+  &--CTA {
+    font-size: clamp(rem(13px), 1.5vw, rem(14px));
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 0.05rem;
+  }
+}
+
 .hero {
   &__info {
     width: clamp(rem(375px), 75vw, rem(580px));
@@ -93,10 +101,4 @@
   }
 }
 
-.btn {
-  &--CTA {
-    font-size: clamp(rem(13px), 1.5vw, rem(14px));
-    font-weight: var(--font-weight-bold);
-    letter-spacing: 0.05rem;
-  }
-}
+
