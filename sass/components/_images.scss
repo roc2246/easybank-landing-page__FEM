@@ -16,7 +16,7 @@
       width: unset;
     }
   }
-  @media (min-device-width: $breakpoint2) {
+  @media (min-width: $breakpoint2) {
     &__img {
       margin-top: rem(-260px);
       margin-right: -25rem;
