@@ -128,6 +128,10 @@ li {
     .proposition__paragraph {
       text-align: left; } }
 
+.latest-articles__heading {
+  text-align: center;
+  font-size: clamp(1.66667rem, 4vw, 2.22222rem); }
+
 .btn {
   display: block; }
   .btn--top {

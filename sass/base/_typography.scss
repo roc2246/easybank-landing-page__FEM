@@ -101,4 +101,11 @@
   }
 }
 
+.latest-articles{
+  &__heading{
+    text-align: center;
+font-size: clamp(rem(30px), 4vw,rem(40px));
+  }
+}
+
 
