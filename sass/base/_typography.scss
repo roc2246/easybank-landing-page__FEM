@@ -44,14 +44,14 @@
 }
 
 .propositions {
-  &__info{
+  &__info {
     width: 100%;
     max-width: rem(660px);
     margin-left: auto;
     margin-right: auto;
   }
   @media (min-width: 800px) {
-    &__info{
+    &__info {
       margin-left: unset;
     }
   }
@@ -59,21 +59,20 @@
     text-align: center;
     font-size: clamp(rem(32px), 4vw, rem(40px));
   }
-  @media(min-width: 800px){
-    &__heading{
+  @media (min-width: 800px) {
+    &__heading {
       text-align: left;
     }
   }
   &__paragraph {
     text-align: center;
-    font-size: clamp(rem(15px), 4vw,rem(18px));
+    font-size: clamp(rem(15px), 4vw, rem(18px));
   }
-  @media(min-width: 800px){
-    &__paragraph{
+  @media (min-width: 800px) {
+    &__paragraph {
       text-align: left;
     }
   }
-
 }
 
 .proposition {
@@ -85,27 +84,46 @@
     text-align: center;
     font-size: clamp(rem(20px), 2vw, rem(24px));
   }
-  @media(min-width: $propBreakBoint){
-    &__heading{
+  @media (min-width: $propBreakBoint) {
+    &__heading {
       text-align: left;
     }
   }
   &__paragraph {
     text-align: center;
-    font-size: clamp(rem(14px), 2vw,rem(16px));
+    font-size: clamp(rem(14px), 2vw, rem(16px));
   }
-  @media(min-width: $propBreakBoint){
-    &__paragraph{
+  @media (min-width: $propBreakBoint) {
+    &__paragraph {
       text-align: left;
     }
   }
 }
 
-.latest-articles{
-  &__heading{
+.latest-articles {
+  &__heading {
     text-align: center;
-font-size: clamp(rem(30px), 4vw,rem(40px));
+    font-size: clamp(rem(30px), 4vw, rem(40px));
   }
 }
 
-
+.article{
+  &__info{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  &__author{
+    font-size: rem(14px);
+    font-style: normal;
+    
+  }
+  &__heading{
+    &> *{
+      color: black;
+    }
+  }
+  &__paragraph{
+    font-size: rem(14px);
+    line-height: 1rem;
+  }
+}
