@@ -6,7 +6,7 @@
       var(--color-lime-green),
       var(--color-bright-cyan)
     );
-    &:hover{
+    &:hover {
       opacity: 0.5;
     }
   }
@@ -29,21 +29,28 @@ header {
       }
     }
   }
-  &__anchor{
-    &--top{
-        color: var(--color-grayish-blue);
+  &__anchor {
+    &--top {
+      color: var(--color-grayish-blue);
     }
-}
+    &--bottom {
+      color: var(--color-white);
+    }
+  }
 }
 
-.propositions{
+.propositions {
   background-color: var(--color-light-grayish-blue);
 }
 
-.latest-articles{
+.latest-articles {
   background-color: #fafafa;
 }
 
-.article{
+.article {
   background-color: white;
+}
+
+footer {
+  background-color: var(--color-dark-blue);
 }
