@@ -2,6 +2,14 @@
   &--top {
     object-fit: contain;
   }
+  &--bottom{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (min-width: $footerBreak1) {
+    margin-left: unset;
+  }
 }
 
 .hero {

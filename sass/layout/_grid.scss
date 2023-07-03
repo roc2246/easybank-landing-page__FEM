@@ -34,10 +34,50 @@
   }
 }
 
-.container{
-  &--footer{
+// 1000px
+.container {
+  &--footer {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(rem(300px), max-content));
+  }
+  @media (min-width: $footerBreak1) {
+    .nav {
+      &--social-media {
+        grid-column: 1/2;
+      }
+      &--bottom {
+        grid-column: 1/2;
+      }
+    }
+  }
+  @media (min-width: $footerBreak2) {
+    .nav {
+      &--bottom {
+        grid-column: 2/3;
+      }
+    }
+  }
+  @media (min-width: $footerBreak1) {
+    .btn {
+      grid-column: 2/3;
+     grid-row: 1/2;
+    }
+  }
+  @media (min-width: $footerBreak2) {
+    .btn {
+      grid-column: 3/4;
+    }
+  }
+  @media (min-width: $footerBreak1) {
+    .copyright {
+      grid-row: 2/3;
+      grid-column: 2/3;
+    }
+  }
+  @media (min-width: $footerBreak2) {
+    .copyright {
+      grid-column: 3/4;
+    }
   }
 }

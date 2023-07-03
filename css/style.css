@@ -54,6 +54,14 @@ li {
   font-weight: var(--font-weight-bold);
   letter-spacing: 0.05rem; }
 
+.nav__link {
+  white-space: nowrap; }
+  .nav__link--bottom {
+    text-align: center; }
+  @media (min-width: 779px) {
+    .nav__link--bottom {
+      text-align: left; } }
+
 .hero__info {
   width: clamp(20.83333rem, 75vw, 32.22222rem);
   margin-left: auto;
@@ -133,8 +141,8 @@ li {
   font-size: clamp(1.66667rem, 4vw, 2.22222rem); }
 
 .article__info {
-  padding-left: .5rem;
-  padding-right: .5rem; }
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
 
 .article__author {
   font-size: 0.55556rem;
@@ -146,6 +154,9 @@ li {
 .article__paragraph {
   font-size: 0.77778rem;
   line-height: 1rem; }
+
+.copyright__paragraph {
+  text-align: center; }
 
 .btn {
   display: block; }
@@ -167,8 +178,22 @@ li {
   .hero .btn--CTA {
     margin-left: unset; } }
 
+footer .btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 .logo--top {
   object-fit: contain; }
+
+.logo--bottom {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media (min-width: 779px) {
+  .logo {
+    margin-left: unset; } }
 
 .hero__img {
   z-index: 0;
@@ -254,7 +279,12 @@ li {
 .nav__links--social-media {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 0.55556rem; }
+
+@media (min-width: 779px) {
+  .nav__links--social-media {
+    justify-content: flex-start; } }
 
 .nav__link--top {
   display: flex;
@@ -315,6 +345,34 @@ li {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fill, minmax(16.66667rem, max-content)); }
+
+@media (min-width: 779px) {
+  .container .nav--social-media {
+    grid-column: 1/2; }
+  .container .nav--bottom {
+    grid-column: 1/2; } }
+
+@media (min-width: 1168px) {
+  .container .nav--bottom {
+    grid-column: 2/3; } }
+
+@media (min-width: 779px) {
+  .container .btn {
+    grid-column: 2/3;
+    grid-row: 1/2; } }
+
+@media (min-width: 1168px) {
+  .container .btn {
+    grid-column: 3/4; } }
+
+@media (min-width: 779px) {
+  .container .copyright {
+    grid-row: 2/3;
+    grid-column: 2/3; } }
+
+@media (min-width: 1168px) {
+  .container .copyright {
+    grid-column: 3/4; } }
 
 .nav--top {
   display: none; }

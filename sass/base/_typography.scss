@@ -6,6 +6,20 @@
   }
 }
 
+.nav {
+  &__link {
+    white-space: nowrap;
+    &--bottom {
+      text-align: center;
+    }
+    @media (min-width: $footerBreak1) {
+      &--bottom {
+        text-align: left;
+      }
+    }
+  }
+}
+
 .hero {
   &__info {
     width: clamp(rem(375px), 75vw, rem(580px));
@@ -107,23 +121,28 @@
   }
 }
 
-.article{
-  &__info{
-    padding-left: .5rem;
-    padding-right: .5rem;
+.article {
+  &__info {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
-  &__author{
+  &__author {
     font-size: rem(10px);
     font-style: normal;
-    
   }
-  &__heading{
-    &> *{
+  &__heading {
+    & > * {
       color: black;
     }
   }
-  &__paragraph{
+  &__paragraph {
     font-size: rem(14px);
     line-height: 1rem;
+  }
+}
+
+.copyright {
+  &__paragraph {
+    text-align: center;
   }
 }
