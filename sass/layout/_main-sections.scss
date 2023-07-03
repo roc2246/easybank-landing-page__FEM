@@ -1,5 +1,5 @@
 header{
     position: relative;
     z-index: 1;
-    height: maxSCSS(63px, 81px);
+    height: clamp(rem(62px), 10vw,rem(78px));
 }

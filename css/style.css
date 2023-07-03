@@ -390,7 +390,7 @@ footer .btn {
 header {
   position: relative;
   z-index: 1;
-  height: max(3.5rem, 5.625vw); }
+  height: clamp(3.44444rem, 10vw, 4.33333rem); }
 
 .hero {
   overflow: hidden; }
