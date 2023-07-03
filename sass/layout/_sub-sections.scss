@@ -9,30 +9,35 @@
   }
 }
 
-.propositions{
+.propositions {
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-top: 4rem;
 }
 
-.proposition{
+.proposition {
   margin-top: 1.25rem;
-  &__img{
+  &__img {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
   @media (min-width: $propBreakBoint) {
-    &__img{
+    &__img {
       margin-left: unset;
     }
   }
 }
 
-.latest-articles{
+.latest-articles {
   margin-top: -30px;
 }
-.article{
+.article {
   width: rem(315px);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
+}
+@media (min-width: 844px) {
+  .article {
+    width: rem(245px);
+  }
 }
