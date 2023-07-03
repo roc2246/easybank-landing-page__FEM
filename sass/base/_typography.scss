@@ -120,6 +120,11 @@
     text-align: center;
     font-size: clamp(rem(30px), 4vw, rem(40px));
   }
+  @media (min-width: 821px) {
+    &__heading {
+      text-align: left;
+    }
+  }
 }
 
 .article {
