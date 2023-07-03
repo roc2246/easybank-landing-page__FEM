@@ -426,7 +426,8 @@ header {
       margin-left: unset; } }
 
 .latest-articles {
-  margin-top: -30px; }
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
 
 .article {
   width: 17.5rem;
