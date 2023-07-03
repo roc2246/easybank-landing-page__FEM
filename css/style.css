@@ -311,6 +311,11 @@ li {
   .hero__mockups {
     grid-row: 3/4; } }
 
+.container--footer {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(16.66667rem, max-content)); }
+
 .nav--top {
   display: none; }
 
