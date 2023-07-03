@@ -124,20 +124,23 @@
 
 .article {
   &__info {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    padding-bottom: 1.4rem;
   }
   &__author {
+    margin-bottom: 0;
     font-size: rem(10px);
     font-style: normal;
   }
   &__heading {
+    margin: 0;
     & > * {
       color: black;
     }
   }
   &__paragraph {
-    font-size: rem(14px);
+    font-size: rem(12px);
     line-height: 1rem;
   }
 }
