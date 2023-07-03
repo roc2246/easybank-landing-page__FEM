@@ -127,13 +127,13 @@ li {
   .proposition__heading {
     text-align: center;
     font-size: clamp(1.11111rem, 2vw, 1.33333rem); }
-  @media (min-width: 867px) {
+  @media (min-width: 844px) {
     .proposition__heading {
       text-align: left; } }
   .proposition__paragraph {
     text-align: center;
     font-size: clamp(0.77778rem, 2vw, 0.88889rem); }
-  @media (min-width: 867px) {
+  @media (min-width: 844px) {
     .proposition__paragraph {
       text-align: left; } }
 
@@ -303,7 +303,7 @@ footer .btn {
   flex-wrap: wrap;
   justify-content: space-evenly; }
 
-@media (min-width: 867px) {
+@media (min-width: 844px) {
   .propositions__container {
     justify-content: space-between; } }
 
@@ -407,13 +407,21 @@ header {
   padding-bottom: 2rem;
   margin-top: 4rem; }
 
+@media (min-width: 912px) {
+  .propositions {
+    margin-top: -2rem; } }
+
+@media (min-width: 1110px) {
+  .propositions {
+    margin-top: -10rem; } }
+
 .proposition {
   margin-top: 1.25rem; }
   .proposition__img {
     display: block;
     margin-left: auto;
     margin-right: auto; }
-  @media (min-width: 867px) {
+  @media (min-width: 844px) {
     .proposition__img {
       margin-left: unset; } }
 
