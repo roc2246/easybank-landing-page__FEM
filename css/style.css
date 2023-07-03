@@ -75,6 +75,7 @@ li {
 @media (min-width: 912px) {
   .hero__info {
     margin-right: unset;
+    margin-top: 5rem;
     width: 25.55556rem; } }
 
 .hero__heading {
@@ -172,7 +173,8 @@ li {
 
 .hero .btn--CTA {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-top: 2.05556rem; }
 
 @media (min-width: 550px) {
   .hero .btn--CTA {

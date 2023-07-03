@@ -35,6 +35,7 @@
   @media (min-width: $breakpoint2) {
     &__info {
       margin-right: unset;
+      margin-top: rem(90px);
       width: rem(460px);
     }
   }
