@@ -14,6 +14,11 @@
       flex-direction: row;
       gap: rem(30px);
     }
+    &--social-media{
+      display: flex;
+      flex-direction: row;
+      gap: rem(10px);
+    }
   }
   &__link {
     &--top {

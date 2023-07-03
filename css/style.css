@@ -251,6 +251,11 @@ li {
   flex-direction: row;
   gap: 1.66667rem; }
 
+.nav__links--social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 0.55556rem; }
+
 .nav__link--top {
   display: flex;
   align-items: center; }
