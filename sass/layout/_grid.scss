@@ -34,21 +34,15 @@
   }
 }
 
-// 1000px
-.container {
-  &--latest-articles {
+.latest-articles {
+  &__container {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(rem(315px), max-content));
+    grid-template-columns: repeat(auto-fit, minmax(rem(215px), max-content));
+    gap: 1.5rem;
   }
-  @media (min-width: 821px) {
-    .latest-articles {
-      &__info {
-        grid-column: 1/3;
-      }
-    }
-  }
-
+}
+.container {
   &--footer {
     display: grid;
     justify-content: center;

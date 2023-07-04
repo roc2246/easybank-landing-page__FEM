@@ -120,7 +120,7 @@
     text-align: center;
     font-size: clamp(rem(30px), 4vw, rem(40px));
   }
-  @media (min-width: 821px) {
+  @media (min-width:671px) {
     &__heading {
       text-align: left;
     }

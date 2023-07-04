@@ -46,11 +46,6 @@
   padding-bottom: 4rem;
 }
 .article {
-  width: rem(315px);
+    overflow: hidden;
   border-radius: 0.5rem;
-}
-@media (min-width: 844px) {
-  .article {
-    width: rem(245px);
-  }
 }
