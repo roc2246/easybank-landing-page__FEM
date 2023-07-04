@@ -34,6 +34,15 @@
   }
 }
 
+.propositions{
+  &__container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(rem(215px), max-content));
+    gap: 1.5rem;
+  }
+}
+
 .latest-articles {
   &__container {
     display: grid;

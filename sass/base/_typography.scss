@@ -91,9 +91,7 @@
 }
 
 .proposition {
-  width: rem(325px);
   @media (min-width: 1080px) {
-    width: rem(265px);
   }
   &__heading {
     text-align: center;
