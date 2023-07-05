@@ -391,6 +391,10 @@ header {
   z-index: 1;
   height: clamp(3.44444rem, 10vw, 4.33333rem); }
 
+footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
 .hero {
   overflow: hidden; }
 
