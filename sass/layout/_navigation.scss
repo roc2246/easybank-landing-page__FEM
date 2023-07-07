@@ -7,6 +7,14 @@
       display: block;
     }
   }
+  &__links{
+    &--social-media{
+      margin: 0;
+    }
+    &--bottom{
+      margin: 0;
+    }
+  }
   &__link {
     &--top {
       height: maxSCSS(63px, 81px);

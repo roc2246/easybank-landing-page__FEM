@@ -163,6 +163,7 @@ li {
   line-height: 1rem; }
 
 .copyright__paragraph {
+  margin: 0;
   text-align: center; }
 
 .btn {
@@ -343,7 +344,8 @@ footer .btn {
 .container--footer {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, minmax(16.66667rem, max-content)); }
+  grid-template-columns: repeat(auto-fill, minmax(16.66667rem, max-content));
+  gap: 1.5rem; }
 
 @media (min-width: 779px) {
   .container .nav--social-media {
@@ -379,6 +381,12 @@ footer .btn {
 @media (min-width: 716px) {
   .nav--top {
     display: block; } }
+
+.nav__links--social-media {
+  margin: 0; }
+
+.nav__links--bottom {
+  margin: 0; }
 
 .nav__link--top {
   height: max(3.5rem, 5.625vw); }

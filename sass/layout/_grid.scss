@@ -34,8 +34,8 @@
   }
 }
 
-.propositions{
-  &__container{
+.propositions {
+  &__container {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(rem(215px), max-content));
@@ -56,6 +56,7 @@
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(rem(300px), max-content));
+    gap: 1.5rem;
   }
   @media (min-width: $footerBreak1) {
     .nav {
