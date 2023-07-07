@@ -256,6 +256,10 @@ footer .btn {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem; }
 
+.nav__img--social-media {
+  height: auto;
+  width: 1.5rem; }
+
 .toggle-nav__icon--close {
   display: none; }
 
@@ -285,7 +289,7 @@ footer .btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 0.55556rem; }
+  gap: .75rem; }
 
 @media (min-width: 779px) {
   .nav__links--social-media {

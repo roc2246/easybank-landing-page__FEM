@@ -77,3 +77,12 @@
     border-top-right-radius: 0.5rem;
   }
 }
+
+.nav{
+  &__img{
+    &--social-media{
+      height: auto;
+      width: 1.5rem;
+    }
+  }
+}
