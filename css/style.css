@@ -350,21 +350,22 @@ footer .btn {
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(11.66667rem, max-content));
   gap: 1.5rem; }
-  @media (min-width: 889px) {
+  @media (min-width: 888px) {
     .container--footer {
       gap: unset;
-      justify-content: space-evenly; } }
+      grid-template-columns: repeat(3, auto);
+      justify-content: space-between; } }
 
 @media (min-width: 593px) {
   .copyright {
     grid-column: 1/3; } }
 
-@media (min-width: 889px) {
+@media (min-width: 888px) {
   .copyright {
     grid-row: 3/4;
     grid-column: 3/4; } }
 
-@media (min-width: 889px) {
+@media (min-width: 888px) {
   .nav--social-media {
     grid-row: 3/4;
     grid-column: 1/2; }
