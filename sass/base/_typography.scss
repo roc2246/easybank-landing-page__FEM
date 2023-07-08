@@ -12,7 +12,7 @@
     &--bottom {
       text-align: center;
     }
-    @media (min-width: $footerBreak1) {
+    @media (min-width: 580px) {
       &--bottom {
         text-align: left;
       }

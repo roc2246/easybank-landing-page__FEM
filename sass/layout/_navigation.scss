@@ -7,12 +7,16 @@
       display: block;
     }
   }
-  &__links{
-    &--social-media{
+  &__links {
+    &--social-media {
       margin: 0;
     }
-    &--bottom{
+    &--bottom {
       margin: 0;
+      @media (min-width: 400px) {
+      columns: 2;
+        
+      }
     }
   }
   &__link {
@@ -22,6 +26,9 @@
         border-bottom: rem(4px) solid;
         margin-bottom: rem(-4px);
       }
+    }
+    &--bottom{
+      margin-bottom: .5rem;
     }
   }
 }
