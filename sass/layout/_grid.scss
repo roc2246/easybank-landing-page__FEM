@@ -60,9 +60,11 @@
     gap: 1.5rem;
     @media (min-width: 889px) {
       gap: unset;
+      // grid-template-columns: unset;
       justify-content: space-evenly;
     }
   }
+
 }
 
 @media (min-width: 593px) {
@@ -72,6 +74,8 @@
 }
 @media (min-width: 889px) {
   .copyright {
+    grid-row: 3/4;
+
     grid-column: 3/4;
   }
 }
@@ -79,7 +83,12 @@
 @media (min-width: 889px) {
   .nav {
     &--social-media {
+      grid-row: 3/4;
       grid-column: 1/2;
+    }
+    &--bottom{
+      grid-row: 1/4;
+      // grid-column: 2/5;
     }
   }
 }

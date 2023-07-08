@@ -361,11 +361,15 @@ footer .btn {
 
 @media (min-width: 889px) {
   .copyright {
+    grid-row: 3/4;
     grid-column: 3/4; } }
 
 @media (min-width: 889px) {
   .nav--social-media {
-    grid-column: 1/2; } }
+    grid-row: 3/4;
+    grid-column: 1/2; }
+  .nav--bottom {
+    grid-row: 1/4; } }
 
 .nav--top {
   display: none; }
