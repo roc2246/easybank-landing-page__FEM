@@ -14,8 +14,8 @@
     &--bottom {
       margin: 0;
       @media (min-width: 593px) {
-      columns: 2;
-        
+      column-count: 2;
+        column-gap: clamp(rem(15px), 5vw, rem(200px));
       }
     }
   }

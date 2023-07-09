@@ -36,5 +36,8 @@ footer{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    @media (min-width: 888px) {
+      margin-right: unset;
+    }
   }
 }

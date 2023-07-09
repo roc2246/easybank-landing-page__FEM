@@ -60,11 +60,16 @@
     gap: 1.5rem;
     @media (min-width: 888px) {
       gap: unset;
-      grid-template-columns: repeat(3, auto);
+      column-gap: 1.5rem;
+      grid-template-columns: repeat(5, auto);
       justify-content: space-between;
     }
   }
-
+@media(min-width: 888px){
+  .btn{
+    grid-column: 5/6;
+  }
+}
 }
 
 @media (min-width: 593px) {
@@ -75,7 +80,7 @@
 @media (min-width: 888px) {
   .copyright {
     grid-row: 3/4;
-    grid-column: 3/4;
+    grid-column: 5/6;
   }
 }
 
@@ -87,7 +92,7 @@
     }
     &--bottom{
       grid-row: 1/4;
-      // grid-column: 2/5;
+      grid-column: 2/3;
     }
   }
 }
