@@ -390,6 +390,14 @@ footer .btn {
   .nav--top {
     display: block; } }
 
+.nav--mobile {
+  display: block;
+  top: clamp(3.44444rem, 10vw, 4.33333rem);
+  left: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100vw; }
+
 .nav__links--social-media {
   margin: 0; }
 
@@ -407,7 +415,7 @@ footer .btn {
     margin-bottom: -0.22222rem; }
 
 .nav__link--bottom {
-  margin-bottom: .5rem; }
+  margin-bottom: 0.5rem; }
 
 header {
   position: relative;
@@ -465,6 +473,9 @@ footer {
 
 header {
   background-color: var(--color-white); }
+
+.nav--mobile {
+  background-color: rgba(0, 0, 0, 0.4); }
 
 .nav__link--top:hover {
   border-image: linear-gradient(to right, var(--color-lime-green), var(--color-bright-cyan)) 1; }
