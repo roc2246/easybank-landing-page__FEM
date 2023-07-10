@@ -4,6 +4,13 @@ header{
     height: clamp(rem(62px), 10vw,rem(78px));
 }
 
+.header{
+    &--mobile{
+        position: fixed;
+        width: 100%;
+    }
+}
+
 footer{
     padding-top: 2rem;
     padding-bottom: 2rem;
