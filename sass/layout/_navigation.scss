@@ -16,6 +16,14 @@
     width: 100vw;
   }
   &__links {
+    &--mobile {
+      border-radius: 0.25rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      width: maxSCSS(327px, 1110px);
+    }
     &--social-media {
       margin: 0;
     }
@@ -33,6 +41,13 @@
       &:hover {
         border-bottom: rem(4px) solid;
         margin-bottom: rem(-4px);
+      }
+    }
+    &--mobile {
+      height: unset;
+      &:hover {
+        border-bottom: unset;
+        margin-bottom: unset;
       }
     }
     &--bottom {

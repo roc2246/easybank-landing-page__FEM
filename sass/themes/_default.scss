@@ -20,6 +20,11 @@ header {
   &--mobile{
     background-color: rgba(0,0,0,0.4);
   }
+  &__links {
+    &--mobile{
+      background-color: white;
+    }
+  }
   &__link {
     &--top {
       &:hover {
@@ -31,10 +36,18 @@ header {
           1;
       }
     }
+    &--mobile{
+      &:hover{
+        border-image: unset;
+      }
+    }
   }
   &__anchor {
     &--top {
       color: var(--color-grayish-blue);
+    }
+    &--mobile{
+      color: var(--color-dark-blue);
     }
     &--bottom {
       color: var(--color-white);

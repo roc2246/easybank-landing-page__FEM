@@ -18,6 +18,11 @@
       }
     }
   }
+  &__anchor{
+    &--mobile{
+font-size: 1rem;
+    }
+  }
 }
 
 .hero {
