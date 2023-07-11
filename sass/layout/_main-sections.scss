@@ -1,17 +1,18 @@
-header{
-    position: relative;
-    z-index: 1;
-    height: clamp(rem(62px), 10vw,rem(78px));
+header {
+  position: relative;
+  z-index: 1;
+  height: clamp(rem(62px), 10vw, rem(78px));
 }
 
-.header{
-    &--mobile{
-        position: fixed;
-        width: 100%;
-    }
+.header {
+  &--mobile {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+  }
 }
 
-footer{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }

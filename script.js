@@ -1,6 +1,7 @@
 let isOpen;
 
 const header = document.getElementsByTagName("header")[0]
+const hero = document.getElementsByClassName("hero")[0]
 
 const topNav = {
   container: document.getElementsByClassName("nav--top")[0],
@@ -18,7 +19,10 @@ const toggleIcon = {
 function toggleStyle(action) {
   topNav.container.classList[action]("nav--mobile");
   topNav.links.classList[action]("nav__links--mobile");
+
   header.classList[action]("header--mobile");
+  hero.classList[action]("hero--mobile");
+
   for (let x = 0; x < topNav.link.length; x++) {
     topNav.link[x].classList[action]("nav__link--mobile");
   }

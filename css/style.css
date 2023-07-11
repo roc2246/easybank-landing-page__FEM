@@ -447,7 +447,8 @@ header {
 
 .header--mobile {
   position: fixed;
-  width: 100%; }
+  width: 100vw;
+  top: 0; }
 
 footer {
   padding-top: 2rem;
@@ -455,6 +456,8 @@ footer {
 
 .hero {
   overflow: hidden; }
+  .hero--mobile {
+    margin-top: clamp(3.44444rem, 10vw, 4.33333rem); }
 
 @media (min-width: 550px) {
   .hero {

@@ -1,5 +1,8 @@
 .hero {
   overflow: hidden;
+  &--mobile{
+    margin-top: clamp(rem(62px), 10vw,rem(78px));
+  }
 }
 
 @media (min-width: $breakpoint1) {
