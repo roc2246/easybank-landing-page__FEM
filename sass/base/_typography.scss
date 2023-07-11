@@ -70,7 +70,7 @@ font-size: 1rem;
     margin-left: auto;
     margin-right: auto;
   }
-  @media (min-width: 800px) {
+  @media (min-width: 593px) {
     &__info {
       margin-left: unset;
     }
@@ -79,7 +79,7 @@ font-size: 1rem;
     text-align: center;
     font-size: clamp(rem(32px), 4vw, rem(40px));
   }
-  @media (min-width: 800px) {
+  @media (min-width: 593px) {
     &__heading {
       text-align: left;
     }
@@ -88,7 +88,7 @@ font-size: 1rem;
     text-align: center;
     font-size: clamp(rem(15px), 4vw, rem(18px));
   }
-  @media (min-width: 800px) {
+  @media (min-width: 593px) {
     &__paragraph {
       text-align: left;
     }
